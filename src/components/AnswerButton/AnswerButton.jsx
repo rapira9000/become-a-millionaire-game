@@ -56,8 +56,10 @@ const AnswerButton = ({
   return (
     <button
       onClick={() => {
-        setBtnSelectedConnect(index);
-        animationStart();
+        if (selectedBtn === null) {
+          setBtnSelectedConnect(index);
+          animationStart();
+        }
       }}
       type="button"
       title={title}

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/become-a-millionaire-game/static/css/main.fba50f02.css",
-    "main.js": "/become-a-millionaire-game/static/js/main.61d8a0a9.js",
+    "main.css": "/become-a-millionaire-game/static/css/main.6cd6e711.css",
+    "main.js": "/become-a-millionaire-game/static/js/main.17a50942.js",
     "static/js/787.fff4bf12.chunk.js": "/become-a-millionaire-game/static/js/787.fff4bf12.chunk.js",
     "static/media/Inter.ttf": "/become-a-millionaire-game/static/media/Inter.b4c30855aff392d7e8dc.ttf",
     "static/media/hand.svg": "/become-a-millionaire-game/static/media/hand.b8f43641e5bcd803d180407d80a69489.svg",
@@ -9,12 +9,12 @@
     "index.html": "/become-a-millionaire-game/index.html",
     "static/media/icon-close.svg": "/become-a-millionaire-game/static/media/icon-close.f1510c4e3f6c1d1bd9cb0906e49ebcac.svg",
     "static/media/icon-menu.svg": "/become-a-millionaire-game/static/media/icon-menu.4cc3cba447218668ce9e22ca3a4cea9b.svg",
-    "main.fba50f02.css.map": "/become-a-millionaire-game/static/css/main.fba50f02.css.map",
-    "main.61d8a0a9.js.map": "/become-a-millionaire-game/static/js/main.61d8a0a9.js.map",
+    "main.6cd6e711.css.map": "/become-a-millionaire-game/static/css/main.6cd6e711.css.map",
+    "main.17a50942.js.map": "/become-a-millionaire-game/static/js/main.17a50942.js.map",
     "787.fff4bf12.chunk.js.map": "/become-a-millionaire-game/static/js/787.fff4bf12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba50f02.css",
-    "static/js/main.61d8a0a9.js"
+    "static/css/main.6cd6e711.css",
+    "static/js/main.17a50942.js"
   ]
 }
