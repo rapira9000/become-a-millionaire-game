@@ -1,0 +1,137 @@
+{
+	"currency" : "$",
+	"levels": {
+		"500": [
+			{
+				"question": "Что борцы сумо разбрасывают по рингу перед поединком?",
+				"answers": [
+					{"answer": "Соль", "isTrue": true},
+					{"answer": "Опилки", "isTrue": false},
+					{"answer": "Пшено", "isTrue": false},
+					{"answer": "Песок", "isTrue": false}
+				]
+			}
+		],
+		"1000": [
+			{
+				"question": "Шкала Сковилла - это шкала оценки...",
+				"answers": [
+					{"answer": "Качества атмосферного воздуха", "isTrue": false},
+					{"answer": "Привлекательности женщин", "isTrue": false},
+					{"answer": "Остроты перца", "isTrue": true},
+					{"answer": "Уровня моря", "isTrue": false}
+				]
+			}
+		],
+		"2000": [
+			{
+				"question": "Какой титул имел Дон Кихот?",
+				"answers": [
+					{"answer": "Барон", "isTrue": false},
+					{"answer": "Маркиз", "isTrue": false},
+					{"answer": "Идальго", "isTrue": true},
+					{"answer": "Вождь", "isTrue": false}
+				]
+			}
+		],
+		"4000": [
+			{
+				"question": "Кто автор антиутопического романа \"О дивный новый мир\"?",
+				"answers": [
+					{"answer": "Олдос Хаксли", "isTrue": true},
+					{"answer": "Рэй Брэдбери", "isTrue": false},
+					{"answer": "Джордж Оруэлл", "isTrue": false},
+					{"answer": "Сомерсет Моэм", "isTrue": false}
+				]
+			}
+		],
+		"8000": [
+			{
+				"question": "Как называется самая глубокая точка поверхности Земли, находящаяся на дне Марианской впадины?",
+				"answers": [
+					{"answer": "Филиппинская плита", "isTrue": false},
+					{"answer": "Бездна Челленджера", "isTrue": true},
+					{"answer": "Кермадек", "isTrue": false},
+					{"answer": "Черное Логово", "isTrue": false}
+				]
+			}
+		],
+		"16000": [
+			{
+				"question": "Во время войны в 2022 году кто НЕ украл танк?",
+				"answers": [
+					{"answer": "Цыгане", "isTrue": false},
+					{"answer": "Тракторист", "isTrue": false},
+					{"answer": "Гопники", "isTrue": false},
+					{"answer": "Чеченцы", "isTrue": true}
+				]
+			}
+		],
+		"32000": [
+			{
+				"question": "По мнению оккупантов слово «паляниця» на русском означает",
+				"answers": [
+					{"answer": "Бублик", "isTrue": false},
+					{"answer": "Клубника", "isTrue": true},
+					{"answer": "Земляника", "isTrue": false},
+					{"answer": "Поляна", "isTrue": false}
+				]
+			}
+		],
+		"64000": [
+			{
+				"question": "Каким словом в 2022 году украинцы разоблачали оккупантов?",
+				"answers": [
+					{"answer": "Укрзалізниця", "isTrue": false},
+					{"answer": "Паляниця", "isTrue": true},
+					{"answer": "Шовковиця", "isTrue": false},
+					{"answer": "Суниця", "isTrue": false}
+				]
+			}
+		],
+		"125000": [
+			{
+				"question": "Где были сказаны известные слова «Русский корабль, пошёл на х*й»?",
+				"answers": [
+					{"answer": "Остров Хортица", "isTrue": false},
+					{"answer": "Одесса", "isTrue": false},
+					{"answer": "Херсон", "isTrue": false},
+					{"answer": "Остров Змеиный", "isTrue": true}
+				]
+			}
+		],
+		"250000": [
+			{
+				"question": "Чем женщина в Киева сбила дрон оккупантов?",
+				"answers": [
+					{"answer": "Микроволновкой", "isTrue": false},
+					{"answer": "Банкой огурцов", "isTrue": true},
+					{"answer": "Веником", "isTrue": false},
+					{"answer": "Сковородкой", "isTrue": false}
+				]
+			}
+		],
+		"500000": [
+			{
+				"question": "Семечки какого растения носили в карманах оккупанты в 2022 году?",
+				"answers": [
+					{"answer": "Подсолнуха", "isTrue": true},
+					{"answer": "Нарциссов", "isTrue": false},
+					{"answer": "Лилий", "isTrue": false},
+					{"answer": "Тыквы", "isTrue": false}
+				]
+			}
+		],
+		"1000000": [
+			{
+				"question": "Зачем люди покупают хот-дог?",
+				"answers": [
+					{"answer": "Передавить", "isTrue": false},
+					{"answer": "Перекрутить", "isTrue": false},
+					{"answer": "Перекусить", "isTrue": true},
+					{"answer": "Переломить", "isTrue": false}
+				]
+			}
+		]
+	}
+}

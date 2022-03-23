@@ -1,0 +1,237 @@
+.answer-button {
+    position: relative;
+
+    width: 288px;
+    padding: 20px 24px;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+
+    cursor: pointer;
+}
+
+.answer-button__content {
+    text-align: left;
+}
+
+.answer-button__content > * {
+    position: relative;
+    z-index: 5;
+}
+
+.answer-button__position {
+    margin-right: 8px;
+
+    font-size: var(--AnswerButtonPositionLetterSize);
+    font-weight: var(--AnswerButtonPositionLetterWeight);
+    color: var(--AnswerButtonPositionLetterColor);
+}
+
+.answer-button__text {
+    font-size: var(--AnswerButtonTextSize);
+    font-weight: var(--AnswerButtonTextWeight);
+    color: var(--AnswerButtonTextColor);
+}
+
+.answer-button::after {
+    content: "";
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+    display: block;
+    width: 100vw;
+    height: 1px;
+
+    background-color: var(--SvgImageAnsverStroke);
+    transition: 0.3s;
+}
+
+.answer-button__image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.answer-button .svg-image {
+    width: 100%;
+    height: 100%;
+
+    fill: var(--SvgImageAnsverFill);
+    stroke: var(--SvgImageAnsverStroke);
+}
+
+.answer-button--selected .svg-image {
+    stroke: var(--Orange-100);
+    fill: var(--Orange-5);
+}
+
+.answer-button--selected:after {
+    background-color: var(--Orange-100);
+}
+
+.answer-button--wrong .svg-image {
+    stroke: var(--Red-100);
+    fill: var(--Red-5);
+
+    animation: animationWrong 0.5s infinite;
+}
+
+.answer-button--wrong:after {
+    background-color: var(--Red-100);
+
+    animation: animationWrongAfter 0.5s infinite;
+}
+
+@keyframes animationWrong {
+    0%, 49% {
+        fill: var(--SvgImageAnsverFill);
+        stroke: var(--SvgImageAnsverStroke);
+    }
+    50%, 100% {
+        stroke: var(--Red-100);
+        fill: var(--Red-5);
+    }
+}
+
+@keyframes animationWrongAfter {
+    0%, 49% {
+        background-color: var(--SvgImageAnsverStroke);
+    }
+    50%, 100% {
+        background-color: var(--Red-100);
+    }
+}
+
+.answer-button--correct .svg-image {
+    stroke: var(--Green-100);
+    fill: var(--Green-5);
+
+    animation: animationCorrect 0.5s infinite;
+}
+
+.answer-button--correct:after {
+    background-color: var(--Green-100);
+
+    animation: animationCorrectAfter 0.5s infinite;
+}
+
+@keyframes animationCorrect {
+    0%, 49% {
+        fill: var(--SvgImageAnsverFill);
+        stroke: var(--SvgImageAnsverStroke);
+    }
+    50%, 100% {
+        stroke: var(--Green-100);
+        fill: var(--Green-5);
+    }
+}
+
+@keyframes animationCorrectAfter {
+    0%, 49% {
+        background-color: var(--SvgImageAnsverStroke);
+    }
+    50%, 100% {
+        background-color: var(--Green-100);
+    }
+}
+
+/* levels btn  styles */
+.answer-button__levels-item {
+    width: 240px;
+    padding: var(--LevelButtonPadding);
+
+    cursor: default;
+}
+
+.answer-button__text-level {
+    font-weight: var(--LevelButtonTextWeight);
+    font-size: var(--LevelButtonTextSize);
+    color: var(--LevelButtonTextColor);
+}
+
+.answer-button__levels-item--current:after {
+    background-color: var(--Orange-100);
+}
+
+.answer-button__levels-item--current:after,
+.answer-button__levels-item--current .svg-image {
+    stroke: var(--Orange-100);
+}
+
+.answer-button__levels-item--disallow:after,
+.answer-button__levels-item--disallow .svg-image {
+    stroke: var(--Black-40);
+}
+
+.answer-button__levels-item--disallow .answer-button__text-level {
+    color: var(--Black-40);
+}
+
+/* END levels btn  styles */
+
+.answer-button__levels-item .answer-button__content {
+    text-align: center;
+}
+
+@media (hover: hover) {
+    .answer-button--hover:hover .svg-image {
+        stroke: var(--Orange-100);
+        transition: 0.3s;
+    }
+
+    .answer-button--hover:hover:after {
+        background-color: var(--Orange-100);
+        transition: 0.3s;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .answer-button::after {
+        width: calc(100% + 34px);
+    }
+
+    .answer-button {
+        width: 389px;
+        height: 72px;
+        padding: 25px 56px;
+    }
+
+    /* answer btn styles @media */
+    .answer-button__position {
+        font-size: var(--AnswerButtonPositionLetterDesktopSize);
+    }
+
+    .answer-button__text {
+        font-size: var(--AnswerButtonTextDesktopSize);
+    }
+
+    /* END answer btn styles @media */
+
+    /* levels btn  styles @media */
+    .answer-button__levels-item {
+        width: 240px;
+        padding: 8px 24px;
+
+        cursor: default;
+    }
+
+    .answer-button__levels-item:after {
+        width: 200%;
+    }
+
+    .answer-button__text-level {
+        font-size: var(--LevelButtonTextDesktopSize);
+    }
+
+    /* END levels btn  styles @media */
+}

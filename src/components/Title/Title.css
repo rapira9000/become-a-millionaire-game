@@ -1,0 +1,40 @@
+.title {
+    padding: 0;
+    margin: 0;
+
+    font-size: var(--TitleFontSize);
+    font-weight: var(--TitleFontWeight);
+
+    color: var(--Black-100);
+    text-align: center;
+}
+
+.title--sub {
+    margin-bottom: 8px;
+
+    font-size: var(--SubTitleFontSize);
+    font-weight: var(--SubTitleFontWeight);
+
+    opacity: 0.5;
+}
+
+.title--question {
+    font-size: var(--TitleQuestionFontSize);
+}
+
+@media screen and (min-width: 960px) {
+    .title {
+        font-size: var(--TitleFontSizeDesctop);
+
+        text-align: left;
+    }
+
+    .title--sub {
+        font-size: var(--SubTitleFontSizeDescktop);
+    }
+
+    .title--question {
+        font-size: var(--TitleQuestionFontSizeDesktop);
+        text-align: left;
+    }
+}

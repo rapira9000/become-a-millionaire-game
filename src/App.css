@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/fonts/Inter/Inter.ttf") format("ttf")
+}
+
+:root {
+  --Orange-120: #E87928;
+  --Orange-100: #FF8B37;
+  --Orange-80: #FFAC70;
+  --Orange-5: #FFF3EB;
+
+  --Green-100: #47D867;
+  --Green-5: #E6FAEA;
+
+  --Red-100: #EC6259;
+  --Red-5: #FDEEED;
+
+  --Black-100: #1C1C21;
+  --Black-40: #D0D0D8;
+  --Black-5: #F5F5F7;
+
+  --White-100: #FFFFFF;
+
+  --DescktopPaddingBlockHorizontal: 80px;
+  --MobilePaddingBlockHorizontal: 16px;
+  --MobilePaddingBlockTop: 80px;
+  --MobilePaddingBlockbottom: 48px;
+
+  --SubTitleFontSize: 18px;
+  --SubTitleFontSizeDescktop: 32px;
+  --SubTitleFontWeight: 600;
+
+  --TitleFontSize: 32px;
+  --TitleFontSizeDesctop: 56px;
+  --TitleFontWeight: 600;
+
+  --TitleQuestionFontSize: 18px;
+  --TitleQuestionFontSizeDesktop: 32px;
+
+  --ButtonPaddings: 16px 24px;
+  --ButtonPaddingsDescktop: 24px 20px;
+  --ButtonRadius: 12px;
+  --ButtonSize: 14px;
+  --ButtonSizeDescktop: 20px;
+  --ButtonWeight: 600;
+
+  --SvgImageAnsverStroke: var(--Black-40);
+  --SvgImageAnsverFill: var(--White-100);
+
+  --AnswerButtonPositionLetterColor: var(--Orange-100);
+  --AnswerButtonPositionLetterSize: var(--ButtonSize);
+  --AnswerButtonPositionLetterDesktopSize: var(--ButtonSizeDescktop);
+  --AnswerButtonPositionLetterWeight: 600;
+
+  --AnswerButtonTextColor: var(--Black-100);
+  --AnswerButtonTextSize: var(--ButtonSize);
+  --AnswerButtonTextDesktopSize: var(--ButtonSizeDescktop);
+  --AnswerButtonTextWeight: 400;
+
+  --LevelButtonTextColor: var(--Black-100);
+  --LevelButtonTextSize: var(--ButtonSize);
+  --LevelButtonTextDesktopSize: var(--ButtonSizeDescktop);
+  --LevelButtonTextWeight: 400;
+  --LevelButtonPadding: 8px 24px;;
+
+}

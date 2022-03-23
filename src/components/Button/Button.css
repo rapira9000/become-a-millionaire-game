@@ -1,0 +1,40 @@
+.button {
+    width: 288px;
+    max-width: 100%;
+    padding: var(--ButtonPaddings);
+    margin: 0 auto;
+
+    background: var(--Orange-100);
+    border-radius: var(--ButtonRadius);
+    border: 0;
+    outline: 0;
+
+    text-align: center;
+    font-weight: var(--ButtonWeight);
+    font-size: var(--ButtonSize);
+    color: var(--White-100);
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button--pressed {
+    background-color: var(--Orange-120);
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background-color: var(--Orange-80);
+        transition: 0.3s;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .button {
+        padding: var(--ButtonPaddingsDescktop);
+        margin: initial;
+
+        font-size: var(--ButtonSizeDescktop);
+    }
+}
+

@@ -1,0 +1,41 @@
+.game-levels {
+    position: fixed;
+    left: 100%;
+    top: 56px;
+    z-index: 5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: calc(100% - 56px);
+    padding: 32px 0;
+
+    background-color: var(--Black-5);
+    transition: all 0.5s ease-out;
+}
+
+.game-levels--open {
+    left: 0;
+
+    transition: all 0.5s ease-out;
+}
+
+@media screen and (min-width: 960px) {
+    .game-levels {
+        position: absolute;
+        left: initial;
+        right: 0;
+        top: 0;
+
+        justify-content: center;
+        overflow: hidden;
+        max-width: 376px;
+        height: 100%;
+
+        background-color: var(--White-100);
+    }
+}
+
