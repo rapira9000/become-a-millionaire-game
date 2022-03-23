@@ -24,7 +24,7 @@ const Screen = ({
   if (appStatus !== 'onPlaying') {
     return (
       <>
-        <div className="screen screen--start">
+        <div className={`screen screen--${appStatus}`}>
           <div className="screen__content">
             <div className="screen__content-block screen-image__wrapper">
               <img className="screen-image" alt="hand" src={handImage} />

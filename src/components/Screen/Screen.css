@@ -10,6 +10,10 @@
     background: linear-gradient(to right bottom, var(--White-100) 50%, var(--Orange-5) 50%);
 }
 
+.screen--end {
+    background-color: var(--Black-5);
+}
+
 .screen__content {
     position: relative;
 
